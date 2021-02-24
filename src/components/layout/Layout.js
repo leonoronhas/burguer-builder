@@ -1,11 +1,9 @@
-import { PreviousMap } from "postcss";
-
 import React from "react";
 
 const Layout = (props) => (
   <>
     <div>Toolbar, SideDrawer, Backdrop</div>
-    <main>{props.children}</main>
+    <main className="mt-10">{props.children}</main>
   </>
 );
 
